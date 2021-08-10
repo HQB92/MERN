@@ -1,5 +1,5 @@
 import React from 'react';
-import NuevoProyecto from '../proyectos/NuevoProtecto';
+import NuevoProyecto from '../proyectos/NuevoProyecto';
 import ListadoProyectos from '../proyectos/ListadoProyectos';
 
 const Sidebar = () => {
@@ -8,7 +8,10 @@ const Sidebar = () => {
             <h1>MERN<span>Task</span></h1>
 
             <NuevoProyecto/>
+            <div clasname="proyectos">
+          
 
+            </div>
             <div clasname="proyectos">
                 <h2>Tus Proyectos</h2>
 
